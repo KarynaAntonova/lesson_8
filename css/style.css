@@ -57,6 +57,12 @@ margin-bottom: 48px;
     max-width: 1230px;
     margin: 0 auto;
 }
+.first__list{
+    padding-left: 32px;
+}
+.second__list{
+    padding-left: 24px;
+}
 main{
     margin-bottom: 252px;  
 }
@@ -64,12 +70,13 @@ ul li:not(:last-child){
 margin-bottom: 4px;
 }
 .first__list li::before{
-background: url('../img/check.svg')0 0 no-repeat;
+background: url('../img/check.svg')0 0px no-repeat;
 content:"";
 display: inline-block;
 width: 16px;
 height: 16px;
 margin-right: 16px;
+margin-left: -32px;
 }
 .second__list li::before{
     content:"";
@@ -77,6 +84,7 @@ margin-right: 16px;
     width: 16px;
     height: 16px;
     margin-right: 8px;
+    margin-left: -24px;
 }
 .first__list li::before{
     background: url('../img/check.svg')0 0 no-repeat;
